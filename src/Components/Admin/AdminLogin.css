@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ad_loginadmin_body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 145, 144);
+}
+.ad_header h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#f8f7f5 ;
+  }
+  .ad_login_field{
+    width: 450px;
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111111ba;
+    border-right:3px solid #9c4d11;
+    border-left:3px solid #9c4d11; */
+  }
+  .ad_field_box{
+    width: 90%;
+    height: 578px;
+    opacity: 75%;
+    background-color: #cfd37e;
+    margin: 61px auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #9c4d11;
+    border-radius: 5px;
+  }
+  .ad_inputs{
+    width: 100%;
+    padding: 10px;
+    background-color: #cfd37e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .ad_header{
+    width: 100%;
+    text-align: center;
+    padding: 70px;
+    background-color: #cfd37e;
+  }
+  input{
+    width: 80%;
+    height: 50px;
+    margin:15px 40px;
+   text-align: start;
+   font-size: 15px;
+   padding-left: 10px;
+   border: 3px solid #482e07;
+   border-radius: 10px;
+  }
+  .ad_buutons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #cfd37e;
+  }
+  .ad_submit{
+    flex-basis: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: beige;
+    padding: 16px;
+    /* margin: 35px auto; */
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: #482e07; 
+     border-radius: 5px;          
+  }
+  .ad_link_button{
+    text-decoration: none;
+    background-color: beige; 
+    color: #482e07; 
+    padding:19px 33px;
+    margin: -16px -18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size:15px ;
+    font-weight: 500;
+    text-decoration: none;
+    color: #392504;
+    box-shadow:6px 7px 8px 0px #000000 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  

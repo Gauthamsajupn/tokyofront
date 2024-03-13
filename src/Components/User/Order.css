@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.order_cover{
+    width:100%;
+    height: 100vh;
+    background-color: #7d5e3b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order_cover_1{
+    width: 80%;
+    height: 95%;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show_details{
+    width: 50%;
+    height: 95%;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Add_details{
+    width: 50%;
+    height: 95%;
+    background-color: burlywood;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+   
+}
+.item_img{
+    width: 90%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: aquamarine; */
+}
+.item_details{
+    width: 90%;
+    height: 50%;
+    /* background-color: rgb(197, 215, 209); */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 10px;
+}
+.od_clothname{
+    width: 70%;
+    height: 40px;
+    /* background-color: rgb(120, 190, 35); */
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+}
+.od_price{
+    width: 70%;
+    height: 40px;
+    /* background-color: rgb(32, 36, 27); */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 25px;
+}
+.od_description{
+    width: 70%;
+    height: 40px;
+    /* background-color: rgb(97, 20, 53); */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.od_size{
+    width: 70%;
+    height: 40px;
+    /* background-color: rgb(170, 214, 12); */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.od_color{
+    width: 70%;
+    height: 40px;
+    /* background-color: rgb(12, 42, 214); */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+/* .order_head{
+    width: 40%;
+    height: 50px;
+    background-color: black;
+    border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   
+} */
+
+.text{
+    width: 350px;
+    height: 50px;
+}
+.area{
+    width: 350px;
+    height: 100px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

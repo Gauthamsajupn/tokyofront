@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Add this to your ViewProduct.css file */
+.modal-content {
+    width: 500px; /* Adjust the width as needed */
+    background-color: #e4e186;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .modal-footer button {
+    margin-left: 40px;
+    background-color: rgb(26, 44, 44);
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+  }
+  .modal-dialog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* css code from Userdetails.css */

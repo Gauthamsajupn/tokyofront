@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar_main{
+    background-color: #e0e3a2;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .nav_brand{
+    background-color: antiquewhite; 
+} */
+.brand_name{
+    background-color: #e0e3a2;
+   width: 178px;
+   height: 100%;
+   font-size: 40px;
+  padding: 15px;
+  text-align: center;
+  color: #c39150;
+  
+}
+/* .nav_account{
+    background-color: blueviolet;
+} */
+.account{
+    background-color: #e0e3a2;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    color: antiquewhite;
+   
+}
+
+.nav_account ul{
+  list-style: none;
+ 
+}
